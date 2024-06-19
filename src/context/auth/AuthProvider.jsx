@@ -70,7 +70,7 @@ export const AuthProvider = ({ children }) => {
             logout,
             register
         }}>
-            {children}
+            { children }
         </AuthContext.Provider>
     )
 }

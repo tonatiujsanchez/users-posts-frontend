@@ -26,7 +26,7 @@ export const Sidebar = () => {
     const { logout, user } = useAuth()
 
     return (
-        <aside className="w-56 border-r h-screen pr-4 flex flex-col">
+        <aside className="w-56 border-r h-screen pr-4 flex flex-col sticky top-0">
             <div className="flex items-center gap-2 mt-10">
                 <Avatar className="h-11 w-11">
                     <AvatarImage src={ user.image } className="object-cover" />
